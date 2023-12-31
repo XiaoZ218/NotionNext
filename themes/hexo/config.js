@@ -5,7 +5,7 @@ const CONFIG = {
 
   HEXO_HOME_NAV_BUTTONS: false, // 首页是否显示分类大图标按钮
   // 已知未修复bug, 在移动端开启true后会加载不出图片； 暂时建议设置为false。
-  HEXO_HOME_NAV_BACKGROUND_IMG_FIXED: false, // 首页背景图滚动时是否固定，true 则滚动时图片不懂动； false则随鼠标滚动 ;
+  HEXO_HOME_NAV_BACKGROUND_IMG_FIXED: true, // 首页背景图滚动时是否固定，true 则滚动时图片不懂动； false则随鼠标滚动 ;
   // 是否显示开始阅读按钮
   HEXO_SHOW_START_READING: true,
 
@@ -21,15 +21,15 @@ const CONFIG = {
 
   HEXO_POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
   HEXO_POST_LIST_SUMMARY: true, // 文章摘要
-  HEXO_POST_LIST_PREVIEW: false, // 读取文章预览
+  HEXO_POST_LIST_PREVIEW: true, // 读取文章预览
   HEXO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
 
   HEXO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
-  HEXO_ARTICLE_COPYRIGHT: true, // 显示文章版权声明
+  HEXO_ARTICLE_COPYRIGHT: false, // 显示文章版权声明
   HEXO_ARTICLE_RECOMMEND: true, // 文章关联推荐
 
   HEXO_WIDGET_LATEST_POSTS: true, // 显示最新文章卡
-  HEXO_WIDGET_ANALYTICS: false, // 显示统计卡
+  HEXO_WIDGET_ANALYTICS: true, // 显示统计卡
   HEXO_WIDGET_TO_TOP: true,
   HEXO_WIDGET_TO_COMMENT: true, // 跳到评论区
   HEXO_WIDGET_DARK_MODE: true, // 夜间模式
